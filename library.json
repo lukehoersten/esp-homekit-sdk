@@ -1,0 +1,27 @@
+{
+	 "name": "esp-homekit-sdk",
+	 "version": "1.0.0",
+	 "description": "ESP HomeKit SDK has been developed in-house by Espressif to build Apple HomeKit accessories.",
+	 "keywords": "espressif, esp32, homekit",
+	 "repository":
+	 {
+		  "type": "git",
+		  "url": "https://github.com/lukehoersten/esp-homekit-sdk.git"
+	 },
+	 "authors":
+	 [
+		  {
+				"name": "Luke Hoersten",
+				"email": "luke@hoersten.org",
+				"url": "http://luke.hoersten.org",
+				"maintainer": true
+		  }
+	 ],
+	 "build":
+	 {
+		  "includeDir": "components/",
+		  "srcDir": "components/"
+	 },
+	 "frameworks": "espidf",
+	 "platforms": "espressif32"
+}
